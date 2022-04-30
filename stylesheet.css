@@ -1,0 +1,24 @@
+body{
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .navLinks{
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 170px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    transition: color 0.5s;
+  }
+  
+  nav{
+    background: linear-gradient(to right, rgb(107, 51, 255), rgb(134, 51, 255));
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .navLinks:hover{
+    color: #9198A0;
+  }
